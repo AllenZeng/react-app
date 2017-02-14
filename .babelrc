@@ -1,0 +1,9 @@
+{
+  "presets": [["es2015", { "loose" : true, "modules": false }], "stage-0", "react"],
+  "plugins": ["antd", "syntax-dynamic-import", "dynamic-import-webpack"],
+  "env": {
+    "development": {
+      "plugins": ["react-hot-loader/babel"]
+    }
+  }
+}

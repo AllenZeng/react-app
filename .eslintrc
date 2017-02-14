@@ -1,0 +1,16 @@
+{
+  "parserOptions": {
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "extends": "airbnb",
+  "globals": {
+    "document": true,
+    "XMLHttpRequest": true,
+    "window": true,
+    "fi": true,
+    "ActiveXObject": true,
+    "cityData": true
+  }
+}
